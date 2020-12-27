@@ -1,10 +1,10 @@
 # HTML_CSS_task_10
 
 
-## Topic: CSS @media rule
+## Topic: CSS Forms
 
 
-[Preview Page (@media rule)](https://zura-papiashvili.github.io/HTML_CSS_task_9/) 
+[Preview Page (contact form)](https://zura-papiashvili.github.io/HTML_CSS_task_10) 
 
 #### Tree Structure:
 ```bash
