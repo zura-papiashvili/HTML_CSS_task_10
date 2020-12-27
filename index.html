@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/base.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive</title>
+    <title>Forms</title>
 </head>
 <body>
     <header>
@@ -30,18 +30,20 @@
         <h2 class="slogan">
             Contact us to get free support
         </h2>
-        <div class="form flex">
-            <div class="text-area">
-                <textarea name="comment" id="comment" cols="" rows=""></textarea>
+        <form action="">
+            <div class="form flex">
+                <div class="text-area">
+                    <textarea name="comment" id="comment" cols="" rows=""></textarea>
+                </div>
+                <div class="inputs flex flex-column">   
+                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                        <input  type="text" name="Name/Surname" id="Name/Surname" placeholder="Name/Surname" required>                 
+                        <input  type="email" name="email" id="email" placeholder="Email" required>
+                        <button >Send <img src="images/send.svg" alt="send"> </button>
+                </div>
             </div>
-            <div class="inputs flex flex-column">
-                <input class="input" type="text" placeholder="Subject">
-                <input class="input" type="text" placeholder="Name/Surname">
-                <input class="input" type="email" name="" id="" placeholder="Email">
-                <input class="input" type="button" value="Send">
-
-            </div>
-        </div>
+        </form>
+       
     </div>
 
     <footer>
