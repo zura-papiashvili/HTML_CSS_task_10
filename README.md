@@ -1,4 +1,4 @@
-# HTML_CSS_task_9
+# HTML_CSS_task_10
 
 
 ## Topic: CSS @media rule
@@ -20,41 +20,31 @@
 ```
 
 
-#### CSS @media Rule
-The @media rule is used in media queries to apply different styles for different media types/devices.
+## An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 
-Media queries can be used to check many things, such as:
-
-* width and height of the viewport
-* width and height of the device
-* orientation (is the tablet/phone in landscape or portrait mode?)
-* resolution
-
-# Examples
+# Example
 
 
-``` css
-/* Change the background color of the <body> element to "lightblue" when the browser window is 600px wide or less: */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-}
+``` html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .column {
-    width: 50%;
-  }
-}
+```
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
+You can use the [Sharing Debugger](https://developers.facebook.com/tools/debug/) to see the information that is used when your website content is shared on Facebook, Messenger and other places. 
+add meta tags inside <head>
+``` html
+<!-- facebook  meta tags -->
+    <meta property="og:url"                content="https://zura-papiashvili.github.io/HTML_CSS_task_10/" />
+    <meta property="og:type"               content="Contact Page" />
+    <meta property="og:title"              content="Canary Islands" />
+    <meta property="og:description"        content="Unilab Task 10 - Contact Forms" />
+    <meta property="og:image"              content="https://astreatc.com/wp-content/uploads/elementor/thumbs/canaryislands_tmo_2013166_lrg-scaled-e1604774822308-oy2t4gxd7bbprxfwlxru85nkq8hnpl6gcvb4r02bos.jpg" />
 ```
 
 ### Source:[www.w3schools.com](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
