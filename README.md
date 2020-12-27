@@ -37,7 +37,7 @@
 ```
 
 You can use the [Sharing Debugger](https://developers.facebook.com/tools/debug/) to see the information that is used when your website content is shared on Facebook, Messenger and other places. 
-add meta tags inside <head>
+add meta tags inside head
 ``` html
 <!-- facebook  meta tags -->
     <meta property="og:url"                content="https://zura-papiashvili.github.io/HTML_CSS_task_10/" />
